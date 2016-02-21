@@ -1,0 +1,15 @@
+/*Montserrat*/
+@font-face {
+    font-family:"Montserrat-Regular";
+    src: local("☺"), url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family:"Montserrat-Bold";
+    src: local("☺"), url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+}
+
+/*Corbert-Regular*/
+@font-face {
+    font-family:"Corbert-Regular";
+    src: local("☺"), url("../fonts/corbert_regular_macroman/Corbert-Regular-webfont.ttf") format("truetype");
+}

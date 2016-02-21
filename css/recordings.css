@@ -1,0 +1,126 @@
+.oh {
+    overflow: inherit !important;
+}
+.container {
+    text-transform: uppercase;
+    color: #4a4a4a;
+    margin-top: 20px;
+}
+#songTitle {
+    text-align: center;
+    font-weight: 300;
+    font-size: 36px;
+    width: initial;
+}
+.active-link-border {
+    width: 82;
+}
+@media (max-width: 980px) {
+    .active-link-border {
+        width: 64;
+    }
+}
+@media (min-width: 901px) {
+    .mobileDisplay {
+        display: none;
+    }
+    #songTitle {
+        min-height: 130px;
+        line-height: 1.4em;
+    }
+    .p-responsive {
+        padding-top: 33px !important;
+    }
+}
+@media (max-width: 900px) {
+    #titleLink {
+        font-size: 61px;
+    }
+    .desktopDisplay {
+        display: none;
+        margin-top: 36px;
+        margin-bottom: 36px;
+        width: 84%;
+    }
+    .mobileDisplay {
+        display: block;
+        width: 100%;
+    }
+    .biography-text {
+        width: 100%;
+    }
+    .container {
+        margin-top: 3%;
+        margin-bottom: 6%;
+        width: 95%
+    }
+    .biography-image {
+        padding-right: 0px;
+    }
+    #songTitle {
+        min-height: 88px;
+        font-size: 27px;
+        line-height: 1.4em;
+    }
+    .p1 {
+        padding-left: 10px !important;
+    }
+}
+@media (max-width: 800px) {
+    #headerWrapper {
+        margin-top: 0px;
+    }
+}
+@media (max-width: 650px) {
+    #titleLink {
+        /*font-size: 25px;*/
+    }
+    .p1 {
+        padding-left: 0px !important;
+    }
+    #songTitle {
+        min-height: 121px;
+    }
+}
+@media (max-width: 400px) {
+    #titleLink {
+        font-size: 52px;
+    }
+    #header {
+        padding:0px 0px;
+    }
+    #songTitle {
+        min-height: 105px;
+        font-size: 18px;
+        width: 100%
+    }
+    .p-responsive {
+        padding: 1rem !important;
+    }
+    .ml2 {
+        padding-bottom: 26px !important;
+        margin-right: auto;
+        margin-left: auto !important;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .title {
+        font-size: 16px !important;
+        line-height: 1.4rem !important;
+    }
+    .trackDiv {
+        text-align: center;
+        border-bottom: rgba(0, 0, 0, 0.25);
+        border-bottom-style: solid;
+        border-bottom-width: thin;
+    }
+}
+.ml2 {
+    padding-bottom: 20px;
+}
+.trackDiv {
+    /*text-align: center;*/
+    border-bottom: rgba(0, 0, 0, 0.25);
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}

@@ -1,0 +1,125 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Leah Plave</title>
+    <meta name="description" content="Contact page for cellist Leah Plave">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/base_page.css" rel="stylesheet" type="text/css">
+    <link href="css/contact.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery.fs.naver.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="img/favicon/cello-152-181471.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/cello-152-181471.png">
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="img/favicon/cello-152-181471.png">
+    <script src="js/jQuery.js" type="text/javascript"></script>
+    <script src="js/jquery.fs.naver.min.js" type="text/javascript"></script>
+    <script src="js/baseJs.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!-- Mobile Nav -->
+    <nav class="naverNav" id="naverNav">
+        <div class="naver-container">
+            <a href="home">Home</a>
+            <a href="biography">Biography</a>
+            <a href="recordings">Recordings</a>
+            <a href="media">Media</a>
+            <a href="contact">Contact</a>
+        </div>
+    </nav>
+    <!-- End Mobile Nav -->
+    <div id="headerWrapper">
+        <header id="header">
+            <div id="mainTitle">
+                <h1>
+                    <a href="home" id="titleLink">Leah Plave</a>
+                </h1>
+            </div>
+            <div id="topNavigation">
+                <nav class="main-nav">
+                    <ul>
+                        <li class="home-collection">
+                            <a class="inactive-link" href="home">
+                                <ul>
+                                    <li>
+                                        <div style="display:inline-block;">Home</div>
+                                        <div style="display:inline-block;" class="inactive-link-border"></div>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="home-collection">
+                            <a class="inactive-link" href="biography">
+                                <ul>
+                                    <li>
+                                        <div style="display:inline-block;">Biography</div>
+                                        <div style="display:inline-block;" class="inactive-link-border"></div>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="home-collection">
+                            <a class="inactive-link" href="recordings">
+                                <ul>
+                                    <li>
+                                        <div style="display:inline-block;">Recordings</div>
+                                        <div style="display:inline-block;" class="inactive-link-border"></div>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="home-collection">
+                            <a class="inactive-link" href="media">
+                                <ul>
+                                    <li>
+                                        <div style="display:inline-block;">Media</div>
+                                        <div style="display:inline-block;" class="inactive-link-border"></div>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <div class="active-link-holder">
+                            <li class="home-collection">
+                                <a class="active-link" href="contact">
+                                    <ul>
+                                        <li>
+                                            <div style="display:inline-block;">Contact</div>
+                                            <div style="display:inline-block;" class="active-link-border"></div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="contact">
+            <h1>Contact</h1>
+            <div>Please contact Leah Plave to book performances, music lessons, or for more information.</div>
+            <div class="contactMethods">
+                <div class="emailContact">
+                    <a href="mailto:leahplave@gmail.com">leahplave@gmail.com</a>
+                </div>
+                <a target="_blank" class="secondaryContact" href="https://www.linkedin.com/pub/leah-plave/3b/103/483">
+                    <img src="img/linkedin.png">
+                    <span>Leah-Plave</span>
+                </a>
+                <a target="_blank" class="secondaryContact" href="https://www.facebook.com/leah.plave">
+                    <img src="img/facebook.png">
+                    <span>Leah-Plave</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

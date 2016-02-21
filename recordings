@@ -1,0 +1,162 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Leah Plave</title>
+    <meta name="description" content="Listen to recordings of cellist Leah Plave">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link href="css/fonts.css" rel="stylesheet" type="text/css">
+    <link href="css/header.css" rel="stylesheet" type="text/css">
+    <link href="css/base_page.css" rel="stylesheet" type="text/css">
+    <link href="css/recordings.css" rel="stylesheet" type="text/css">
+    <link href="css/plangularSite.css" rel="stylesheet" type="text/css">
+    <link href="css/jquery.fs.naver.css" rel="stylesheet" type="text/css">
+    <link rel="icon" type="image/x-icon" href="img/favicon/cello-152-181471.png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicon/cello-152-181471.png">
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="img/favicon/cello-152-181471.png">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.9/angular.min.js"></script>
+    <script src="js/plangular.js"></script>
+    <script src="js/recordings.js" type="text/javascript"></script>
+    <script src="js/jQuery.js" type="text/javascript"></script>
+    <script src="js/jquery.fs.naver.min.js" type="text/javascript"></script>
+    <script src="js/baseJs.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <!-- Mobile Nav -->
+    <nav class="naverNav" id="naverNav">
+        <div class="naver-container">
+            <a href="home">Home</a>
+            <a href="biography">Biography</a>
+            <a href="recordings">Recordings</a>
+            <a href="media">Media</a>
+            <a href="contact">Contact</a>
+        </div>
+    </nav>
+    <!-- End Mobile Nav -->
+    <div id="headerWrapper">
+        <header id="header">
+            <div id="mainTitle">
+                <h1>
+                    <a href="home" id="titleLink">Leah Plave</a>
+                </h1>
+            </div>
+            <div id="topNavigation">
+                <nav class="main-nav">
+                    <ul>
+                        <li class="home-collection">
+                            <a class="inactive-link" href="home">
+                                <ul>
+                                    <li>
+                                        <div style="display:inline-block;">Home</div>
+                                        <div style="display:inline-block;" class="inactive-link-border"></div>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="home-collection">
+                            <a class="inactive-link" href="biography">
+                                <ul>
+                                    <li>
+                                        <div style="display:inline-block;">Biography</div>
+                                        <div style="display:inline-block;" class="inactive-link-border"></div>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <div class="active-link-holder">
+                            <li class="home-collection">
+                                <a class="active-link" href="recordings">
+                                    <ul>
+                                        <li>
+                                            <div style="display:inline-block;">Recordings</div>
+                                            <div style="display:inline-block;" class="active-link-border"></div>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        </div>
+                        <li class="home-collection">
+                            <a class="inactive-link" href="media">
+                                <ul>
+                                    <li>
+                                        <div style="display:inline-block;">Media</div>
+                                        <div style="display:inline-block;" class="inactive-link-border"></div>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="home-collection">
+                            <a class="inactive-link" href="contact">
+                                <ul>
+                                    <li>
+                                        <div style="display:inline-block;">Contact</div>
+                                        <div style="display:inline-block;" class="inactive-link-border"></div>
+                                    </li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        <div class="recordingsTitle">
+            <div ng-app="plangular" class="ng-scope">
+                <section plangular="" data-src="https://soundcloud.com/leahplave/sets/ccm-freshman-recital" class="measure-wide wrap mb4 oh rounded ng-scope">
+                    <div class="p-responsive mobile-center bg-center bg-cover shadow-darken">
+                        <h1 id="songTitle" class="h1 ng-binding"></h1>
+                        <div class="clearfix">
+                            <div class="left mr1 mobile-block">
+                                <a href="" ng-click="player.previous(playlist)" class="button button-geo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="geo-24 ng-scope plangular-icon plangular-icon-previous" viewBox="0 0 32 32" width="32" height="32" y="96">
+                                        <path d="M0 0 H4 V14 L32 0 V32 L4 18 V32 H0 z"></path>
+                                    </svg>
+                                </a>
+                                <a href="" ng-click="player.playPlaylist(playlist)" ng-hide="player.tracks == playlist.tracks &amp;&amp; player.playing" class="button button-geo anim-popin">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="geo-24 ng-scope plangular-icon plangular-icon-play" viewBox="0 0 32 32" width="32" height="32" y="32">
+                                        <path d="M0 0 L32 16 L0 32 z"></path>
+                                    </svg>
+                                </a>
+                                <a href="" ng-click="player.pause()" ng-show="player.tracks == playlist.tracks &amp;&amp; player.playing" class="button button-geo anim-popin ng-hide">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="geo-24 ng-scope plangular-icon plangular-icon-pause" viewBox="0 0 32 32" width="32" height="32" y="64">
+                                        <path d="M0 0 H12 V32 H0 z M20 0 H32 V32 H20 z"></path>
+                                    </svg>
+                                </a>
+                                <a href="" ng-click="player.next(playlist)" class="button button-geo">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="geo-24 ng-scope plangular-icon plangular-icon-next" viewBox="0 0 32 32" width="32" height="32" y="128">
+                                        <path d="M0 0 L28 14 V0 H32 V32 H28 V18 L0 32 z"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="oh mobile-block">
+                                <progress value="{{ currentTime / duration }}" ng-click="seekTo($event)" class="mt1 progress progress-black w100 ng-binding">{{ currentTime / duration }}</progress>
+                                <small class="left ng-binding">{{ currentTime | playTime }}</small>
+                                <small class="right ng-binding">{{ duration | playTime }}</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="p1 clearfix">
+                        <ol class="ol mid-gray light">
+                            <!-- ngRepeat: track in playlist.tracks -->
+                            <li ng-repeat="track in playlist.tracks" class="ml2 ng-scope">
+                                <a href="" ng-click="player.play(playlist.tracks, $index)" class="block ng-binding" ng-class="{ 'black': (player.playing || player.paused) != track, 'black': (player.playing || player.paused) == track,'heavy': (player.playing || player.paused) != track, 'heavy': (player.playing || player.paused) == track }">
+                                    <div class="trackDiv title">{{ track.title }}
+                                        <!-- — -->
+                                    </div>
+                                    <!-- <div class="trackDiv artist">{{ track.user.username }}</div> -->
+                                </a>
+                            </li>
+                            <!-- end ngRepeat: track in playlist.tracks -->
+                        </ol>
+                        <a ng-href="{{ track.permalink_url }}" target="_blank" class="right small mid-gray" href="https://soundcloud.com/leahplave/sets/ccm-freshman-recital">View on SoundCloud</a>
+                    </div>
+                </section>
+            </div>
+        </div>
+</body>
+
+</html>

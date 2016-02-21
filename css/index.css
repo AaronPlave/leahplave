@@ -1,0 +1,142 @@
+body {
+    margin: 0px;
+    background: black;
+}
+.backgroundImage {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    top:0px;
+    border:0;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    /*maybe set this to document.height?*/
+}
+@media (min-width: 1001px) {
+    #firstImage {
+        background-image: url('../img/left1-2880.JPG');
+    }
+}
+@media (max-width: 999px) {
+    #firstImage {
+        background-image: url('../img/left1-1000.JPG');
+    }
+}
+#headerWrapper {
+    background: transparent;
+    padding-top:62px;
+}
+.main-nav-ul {
+    background: rgba(90, 90, 90, 0.44);
+}
+.fadeIn {
+    /* Styling for Demo
+        ---------------------------------------------------- */
+    -webkit-box-shadow: 0px 0px 5px #333;
+    -moz-box-shadow: 0px 0px 5px #333;
+    -ms-box-shadow: 0px 0px 5px #333;
+    -o-box-shadow: 0px 0px 5px #333;
+    box-shadow: 0px 0px 5px #333;
+    /* CSS needed for animation
+        ---------------------------------------------------- */
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    -o-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+}
+/* Animation Times - Time for image to fade in
+---------------------------------------------------- */
+ .fadeIn-1s {
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    -o-animation-duration:1s;
+    animation-duration:1s;
+}
+.fadeIn-2s {
+    -webkit-animation-duration:2s;
+    -moz-animation-duration:2s;
+    -o-animation-duration:2s;
+    animation-duration:2s;
+}
+.fadeIn-3s {
+    -webkit-animation-duration:3s;
+    -moz-animation-duration:3s;
+    -o-animation-duration:3s;
+    animation-duration:3s;
+}
+.fadeIn-5s {
+    -webkit-animation-duration:5s;
+    -moz-animation-duration:5s;
+    -o-animation-duration:5s;
+    animation-duration:5s;
+}
+/* Animation Delay - Time for image to be delayed
+---------------------------------------------------- */
+ .fadeIn-Delay-short {
+    -webkit-animation-delay:.1s;
+    -moz-animation-delay:.1s;
+    -o-animation-delay:.1s;
+    animation-delay:.1s;
+}
+.fadeIn-Delay-2s {
+    -webkit-animation-delay:2s;
+    -moz-animation-delay:2s;
+    -o-animation-delay:2s;
+    animation-delay:2s;
+}
+.fadeIn-Delay-3s {
+    -webkit-animation-delay:3s;
+    -moz-animation-delay:3s;
+    -o-animation-delay:3s;
+    animation-delay:3s;
+}
+.fadeIn-Delay-5s {
+    -webkit-animation-delay:5s;
+    -moz-animation-delay:5s;
+    -o-animation-delay:5s;
+    animation-delay:5s;
+}
+/* Key Frames
+---------------------------------------------------- */
+ @-webkit-keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
