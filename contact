@@ -102,17 +102,16 @@
     <div class="container">
         <div class="contact">
             <h1>Contact</h1>
-            <div>Please contact Leah Plave to book performances, music lessons, or for more information.</div>
+            <div class="contactText">Please contact Leah Plave to book performances, music lessons, or for more information.</div>
             <div class="contactMethods">
+                <div class="bookButton">
+                    <a target="_blank" href="https://hirenotes.com/#/concierge/36e7e494-a193-4f75-9a61-710b60fe906c">Book Now</a>
+                </div>
                 <div class="emailContact">
                     <a href="mailto:leahplave@gmail.com">leahplave@gmail.com</a>
                 </div>
                 <a target="_blank" class="secondaryContact" href="https://www.linkedin.com/pub/leah-plave/3b/103/483">
                     <img src="img/linkedin.png">
-                    <span>Leah-Plave</span>
-                </a>
-                <a target="_blank" class="secondaryContact" href="https://www.facebook.com/leah.plave">
-                    <img src="img/facebook.png">
                     <span>Leah-Plave</span>
                 </a>
             </div>
